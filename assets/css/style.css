@@ -127,8 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 * {
-    background-color: #8b2e2e;
+  box-sizing: border-box;
 }
 
 .top {
@@ -137,17 +138,41 @@ table {
   width: 100%;
   height: 50px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #666666;
   border: #cccccc;
 }
+header {
+    width: 25%;
+    position: relative;
+}
 
+#about {
+    width: 25%;
+    position: relative;
+    float: right;
+    text-align: left;
+}
+
+
+#contact{
+    width: 15%;
+    position: relative;
+    float: right;
+    text-align: right;
+}
+
+#portfolio {
+    width: 15%;
+    position: relative;
+    float: right;
+}
 #main {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  background-color: #ffffff;
-  position: fixed center;
-  text-align: center;
-  width: 960px;
-
+  background: blue;
+  width: 930px;
+  margin: 20 auto 20 auto;
+  padding: 15px;
+  position: relative;
 }
 
 img {
@@ -156,12 +181,13 @@ img {
 }
 
 footer {
-    position: fixed bottom;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    background-color: #666666;
-    width: 100%;
-    height: 50px;
-
-    
+  position: relative;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  background-color: #666666;
+  width: 100%;
+  height: 50px;
+  padding-top: 25px;
+  color: #ffffff;
+  font-size: small;
 }
