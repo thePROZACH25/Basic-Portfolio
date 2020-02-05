@@ -128,8 +128,9 @@ table {
   border-spacing: 0;
 }
 
-* {
+body {
   box-sizing: border-box;
+  text-align: center;
 }
 
 .top {
@@ -138,39 +139,32 @@ table {
   width: 100%;
   height: 50px;
   text-align: center;
-  background-color: #666666;
+  background-color: #ffffff;
   border: #cccccc;
+  overflow: hidden;
 }
-header {
-    width: 25%;
-    position: relative;
-}
-
-#about {
-    width: 25%;
-    position: relative;
-    float: right;
-    text-align: left;
+.top a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-
-#contact{
-    width: 15%;
-    position: relative;
-    float: right;
-    text-align: right;
+.top a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-#portfolio {
-    width: 15%;
-    position: relative;
-    float: right;
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
 }
-#main {
+.main {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   background: blue;
-  width: 930px;
-  margin: 20 auto 20 auto;
+  width: 960px;
+  margin: 0 auto 0 auto;
   padding: 15px;
   position: relative;
 }
@@ -182,6 +176,7 @@ img {
 
 footer {
   position: relative;
+  float: bottom;
   text-align: center;
   border-top: 8px solid #4aaaa5;
   background-color: #666666;
