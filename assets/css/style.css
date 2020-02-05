@@ -127,18 +127,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+    background-color: #8b2e2e;
+}
 
 .top {
   font-family: "Georgia", Times, Times New Roman, serif;
   color: aqua;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #ffffff;
+  border: #cccccc;
 }
 
-body {
+#main {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  color: blue;
+  background-color: #ffffff;
+  position: fixed center;
+  text-align: center;
+  width: 960px;
+
 }
 
 img {
   width: 20%;
   height: 15%;
+}
+
+footer {
+    position: fixed bottom;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+
+    
 }
