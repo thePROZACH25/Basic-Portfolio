@@ -130,8 +130,7 @@ table {
 
 * {
   background-image: url(../images/vintage-concrete.png);
-  background-repeat: repeat-x;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  background-repeat: repeat;
 }
 
 body {
@@ -143,13 +142,13 @@ body {
   font-family: "Georgia", Times, Times New Roman, serif;
   width: 100%;
   text-align: center;
-  background-color: #ffffff;
+  background: #ffffff;
   border: #cccccc;
   overflow: hidden;
 }
 
 #name {
-    color: #4aaaa5;
+  color: #4aaaa5;
 }
 
 .top a {
@@ -158,6 +157,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background: #ffffff;
 }
 
 .top a:hover {
@@ -180,11 +180,17 @@ body {
   position: relative;
 }
 
-#about {
-    color: #4aaaa5;
-    background: clear;
-    float: left;
+p {
+  background: #ffffff;
+  line-height: 30px;
+}
 
+#about {
+  color: #4aaaa5;
+  background: white;
+  float: left;
+  font-size: 40px;
+  margin-right: 100%;
 }
 
 img {
@@ -198,7 +204,7 @@ footer {
   float: bottom;
   text-align: center;
   border-top: 8px solid #4aaaa5;
-  background-color: #666666;
+  background: #666666;
   width: 100%;
   height: 50px;
   padding-top: 25px;
