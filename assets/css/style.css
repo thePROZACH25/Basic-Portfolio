@@ -135,20 +135,16 @@ table {
 
 body {
   box-sizing: border-box;
-  text-align: center;
 }
 
 .top {
   font-family: "Georgia", Times, Times New Roman, serif;
   width: 100%;
+  height: 80px;
+  display: block;
   text-align: center;
   background: #ffffff;
   border: #cccccc;
-  overflow: hidden;
-}
-
-#name {
-  color: #4aaaa5;
 }
 
 .top a {
@@ -197,10 +193,12 @@ img {
   width: 20%;
   height: 15%;
   float: left;
+  margin-right: 10px;
+  margin-bottom: 15px;
 }
 
 footer {
-  position: relative;
+  position: sticky;
   float: bottom;
   text-align: center;
   border-top: 8px solid #4aaaa5;
