@@ -15,7 +15,7 @@ body {
   width: 100%;
   height: 80px;
   display: block;
-  background-color:#ffffff;
+  background-color: #ffffff;
   border: #cccccc;
 }
 
@@ -33,14 +33,14 @@ body {
   float: left;
   background-color: #4aaaa5;
   padding: 0;
-  border: 0 ;
+  border: 0;
 }
 
 .logo h1 {
   color: white;
   display: table-cell;
   vertical-align: middle;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 28px;
   font-weight: 100;
   text-align: center;
@@ -71,7 +71,7 @@ body {
   vertical-align: middle;
   height: 100%;
   color: #777777;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16pxs;
 }
 .main {
@@ -80,29 +80,48 @@ body {
   border-color: #dddddd;
   border-width: 2px;
   width: 930px;
-  margin:  0 auto 0 auto;
+  margin: 0 auto 0 auto;
   padding: 15px;
-  position: relative;
   margin-top: 20px;
 }
 
 p {
   background: #ffffff;
   line-height: 30px;
-  
 }
 
 #about {
   color: #4aaaa5;
-  background:#ffffff;
+  background: #ffffff;
   float: left;
   font-size: 28px;
   margin-right: 100%;
   padding: 10px 0;
 }
 
-.info{
+#portfolio{
+  color: #4aaaa5;
+  background: #ffffff;
+  float: left;
+  font-size: 28px;
+  margin-right: 100%;
+  padding: 10px 0;
+}
+
+.info {
   padding-top: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 img {
